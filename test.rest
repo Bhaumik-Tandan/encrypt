@@ -1,0 +1,16 @@
+POST http://localhost:3000/encrypt
+Content-Type: application/json
+
+{
+  "data": "your_payload_data",
+  "key": "sdfsfdsdfsfd"
+}
+
+###
+POST http://localhost:3000/decrypt
+Content-Type: application/json
+
+{
+  "encrypted_data": "441b133892ee8f66c7535dd38a753922:233a0cb457ca3c7666d93b359ebb1b9b306cdf55e7c0e5bcee0584c8b7c7b3e4",
+  "key": "sdfsfdsdfsfd"
+}
